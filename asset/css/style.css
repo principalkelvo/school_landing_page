@@ -133,7 +133,7 @@ li:last-child a:hover{
 .subtitle{
     font-size: 18px;
 }
-.title{
+.title.is-large{
     padding: 0.2em 0 1em;
     color: #ec4067;
     font-size: 1.5em;
@@ -168,6 +168,65 @@ li:last-child a:hover{
     height: 100%;
 }
 
+.image.is-normal.img-1::before{
+    content: '@23 September, 2021.';
+    position: absolute;
+    font-size: large;
+    color: #fff;
+    z-index: 1;
+    bottom: 1em;
+    left:1em;
+    font-weight: 700;
+}
+.image.is-normal.img-1::after{
+    content: '#1';
+    position: absolute;
+    font-size: large;
+    color: #fff;
+    z-index: 1;
+    top: 1em;
+    right:1em;
+    font-weight: 700;
+}
+.image.is-normal.img-2::before{
+    content: '@31 October, 2021.';
+    position: absolute;
+    font-size: large;
+    color: #fff;
+    z-index: 1;
+    bottom: 1em;
+    right:1em;
+    font-weight: 700;
+}
+.image.is-normal.img-2::after{
+    content: '#2';
+    position: absolute;
+    font-size: large;
+    color: #fff;
+    z-index: 1;
+    top: 1em;
+    left:1em;
+    font-weight: 700;
+}.image.is-normal.img-3::before{
+    content: '@10 June, 2022.';
+    position: absolute;
+    font-size: large;
+    color: #fff;
+    z-index: 1;
+    bottom: 1em;
+    left:1em;
+    font-weight: 700;
+}
+.image.is-normal.img-3::after{
+    content: '#3';
+    position: absolute;
+    font-size: large;
+    color: #fff;
+    z-index: 1;
+    top: 1em;
+    right:1em;
+    font-weight: 700;
+}
 .buttons.is-large{
     display: block;
     margin: 2em 0 1em;
@@ -186,4 +245,17 @@ li:last-child a:hover{
 .buttons.is-large button:nth-child(2):hover {
     box-shadow: inset 200px 0 0 0 #ec4067;
     color: #fff;
+}
+
+.title{
+ padding-left: 3rem;
+ font-size: 1.5em;
+ position: relative;
+}
+.title.story::after{
+    content: 'So many memories!';
+    font-size: large;
+    padding-left: 1em;
+    position: absolute;
+    bottom: 0;
 }
