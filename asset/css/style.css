@@ -2,9 +2,15 @@
     font-family: Nunito;
 }
 
+.buttons{
+    display: flex;
+    justify-content: space-between;  
+
+}
 .buttons button{
     background-color: #ec4067;
     outline: none;
+    border: none;
     cursor: pointer;
     box-shadow: #ec4067 0px 0px 0px 0px inset;
     padding: 10px 30px;
@@ -13,12 +19,23 @@
     font-weight: 500;
     color:#fff;
 
-    transition: all 0.3s ease-out 0s;
+    transition: ease-out 0.3s;
 
+}
+
+.buttons button:hover{
+    box-shadow: inset 100px 0px 0 0 #fff;
+    border: 1px solid #999;
+    color: #999;
 }
 .buttons button:nth-child(2){
     color: rgb(153, 153, 153);
     background-color: #fff;
     border: 1px solid #999;
     border-color: rgb(153, 153, 153);
+}
+.buttons button:nth-child(2):hover{
+    box-shadow: inset 150px 0 0 0 #ec4067;
+    color: #fff;
+
 }
