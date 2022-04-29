@@ -1,13 +1,63 @@
-*{
-    font-family: Nunito;
+
+* {
+    font-family: 'Nunito';
+    background: #fff;
+    font-size: 24px;
+
 }
 
-.buttons{
+.navbar{
     display: flex;
-    justify-content: space-between;  
-
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
 }
-.buttons button{
+.navbar-logo p{
+    letter-spacing: 2px;
+    color: #ec4067;
+    font-weight: 700;
+}
+.navbar-logo p span{
+    color: rgb(46, 46, 46);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    font-size: medium;
+    color: #444;
+    text-align: center;
+    margin: 0 0.1em;
+    padding: 5px 16px;
+    text-decoration: none;
+    font-weight: 100;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    border-bottom: 3px solid #ec4067;
+}
+li:last-child a:hover{
+    border: none;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons button {
     background-color: #ec4067;
     outline: none;
     border: none;
@@ -17,24 +67,26 @@
     border-radius: 5px;
     font-size: 1em;
     font-weight: 500;
-    color:#fff;
+    color: #fff;
 
     transition: ease-out 0.3s;
 
 }
 
-.buttons button:hover{
-    box-shadow: inset 100px 0px 0 0 #fff;
+.buttons button:hover {
+    box-shadow: inset 120px 0px 0 0 #fff;
     border: 1px solid #999;
     color: #999;
 }
-.buttons button:nth-child(2){
+
+.buttons button:nth-child(2) {
     color: rgb(153, 153, 153);
     background-color: #fff;
     border: 1px solid #999;
-    border-color: rgb(153, 153, 153);
+    border-color: #999;
 }
-.buttons button:nth-child(2):hover{
+
+.buttons button:nth-child(2):hover {
     box-shadow: inset 150px 0 0 0 #ec4067;
     color: #fff;
 
