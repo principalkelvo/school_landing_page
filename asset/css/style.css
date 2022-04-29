@@ -1,0 +1,24 @@
+*{
+    font-family: Nunito;
+}
+
+.buttons button{
+    background-color: #ec4067;
+    outline: none;
+    cursor: pointer;
+    box-shadow: #ec4067 0px 0px 0px 0px inset;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: 500;
+    color:#fff;
+
+    transition: all 0.3s ease-out 0s;
+
+}
+.buttons button:nth-child(2){
+    color: rgb(153, 153, 153);
+    background-color: #fff;
+    border: 1px solid #999;
+    border-color: rgb(153, 153, 153);
+}
