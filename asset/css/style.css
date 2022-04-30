@@ -295,7 +295,6 @@ li:last-child a:hover {
     padding-left: 3rem;
     font-size: 1.5em;
     position: relative;
-    background: none;
     z-index: 2;
 }
 
