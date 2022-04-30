@@ -298,8 +298,10 @@ li:last-child a:hover {
     z-index: 2;
 }
 
-.title.story::before,.title.mentors::before,.title.project::before{
-    content: '';
+.title.story::before,
+.title.mentors::before,
+.title.project::before{
+    content: ' ';
     position: absolute;
     width: 2.2em;
     height: 1.2em;
@@ -480,7 +482,7 @@ image.fullwidth{
     border: none;
     bottom: 2em;
     right: 2em;
-    z-index: 1;
+    z-index: 3;
 }
 
 .go-top-btn img{
