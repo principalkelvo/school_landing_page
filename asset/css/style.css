@@ -248,12 +248,14 @@ li:last-child a:hover {
     font-weight: 700;
 }
 
-.buttons.is-large {
+.buttons.is-large,
+.buttons.is-vlarge {
     display: block;
     margin: 2em 0 1em;
 }
 
-.buttons.is-large button {
+.buttons.is-large button,
+.buttons.is-vlarge button {
     margin-right: 1em;
     min-width: 8em;
 
@@ -268,6 +270,11 @@ li:last-child a:hover {
 .buttons.is-large button:nth-child(2):hover {
     box-shadow: inset 200px 0 0 0 #ec4067;
     color: #fff;
+}
+.buttons.is-vlarge button:hover {
+    box-shadow: inset 250px 0px 0 0 #fff;
+    border: 1px solid #ec4067;
+    color: #ec4067;
 }
 
 .title {
