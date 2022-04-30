@@ -106,7 +106,7 @@ li:last-child a:hover {
 }
 
 .section {
-    padding: 3rem 1.5rem;
+    padding: 3rem 2rem;
     min-height: calc(100vh - 3.25rem);
     width: 100vw;
 }
@@ -117,7 +117,9 @@ li:last-child a:hover {
     justify-content: space-between;
     width: 100%;
 }
-
+.columns.cards {
+    overflow: hidden;
+}
 .column.is-3 {
     width: 25%;
     padding: 3em;
@@ -284,23 +286,36 @@ li:last-child a:hover {
 
 .card {
     position: relative;
-    width: 270px;
+    width: 250px;
     height: 450px;
     background: #fff;
     border-radius: 5px;
-    border: 1px solid black;
 }
 
 .card .title {
-    padding: 1em .5em;
+    padding: .8em .5em;
     font-size: .8em;
     color: #ec4067;
 }
+.card .details .content{
+    font-size: medium;
+    padding: 0 .5em;
+    color: #555;
+}
+.card .buttons{
+    padding: 1em .5em;
+}
+.card .buttons button{
+    padding: 7px 15px;
+    border-radius: 5px;
+    font-size: .7em;
+    font-weight: 500;
+    color: #fff;
+}
 
 .imgBox {
-    width: 270px;
-    height: 250px;
-    background: #000;
+    width: 250px;
+    height: 200px;
     box-shadow: 0 15px 50px rgba(0, 0, 0, 0.35);
     overflow: hidden;
 }
