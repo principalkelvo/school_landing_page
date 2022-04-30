@@ -10,6 +10,7 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 /* navbar styles  */
@@ -54,7 +55,7 @@ li a {
     margin: 0 0.1em;
     padding: 5px 16px;
     text-decoration: none;
-    font-weight: 100;
+    font-weight: 300;
 }
 
 /* Change the link color to pink on hover */
@@ -141,13 +142,14 @@ li:last-child a:hover {
 }
 
 .subtitle {
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: 500;
 }
 
 .title.is-large {
     padding: 0.2em 0 1em;
     color: #ec4067;
-    font-size: 1.5em;
+    font-size: 1.4em;
     font-weight: 300;
     width: 100%;
     letter-spacing: 2px;
@@ -156,6 +158,13 @@ li:last-child a:hover {
 .content {
     color: #444;
     font-weight: normal;
+
+}
+.stories_title{
+    margin-bottom: 1em;
+    font-size: 26px;
+    letter-spacing: 2px;
+    font-weight: 700;
 }
 
 .image.is-large {
@@ -172,7 +181,7 @@ li:last-child a:hover {
 
 .image.is-normal {
     height: 16em;
-    width: 21em;
+    width: 22em;
     position: relative;
 }
 
@@ -282,9 +291,18 @@ li:last-child a:hover {
     font-size: large;
     padding-left: 1em;
     position: absolute;
+    color: rgb(85, 84, 84);
     bottom: 0;
 }
-
+.title.mentors::after {
+    content: 'Skilled and kind!';
+    font-size: large;
+    font-weight: 100;
+    color: rgb(85, 84, 84);
+    padding-left: 1em;
+    position: absolute;
+    top: 0;
+}
 .card {
     position: relative;
     width: 250px;
@@ -324,6 +342,27 @@ li:last-child a:hover {
     height: 200px;
     box-shadow: 0 15px 50px rgba(0, 0, 0, 0.35);
     overflow: hidden;
+    position: relative;
+}
+.imgBox.prof-1::before {
+    content: 'Rose Oketch';
+    position: absolute;
+    font-size: large;
+    color: #fff;
+    z-index: 1;
+    bottom: 1em;
+    left: 1em;
+    font-weight: 700;
+}
+.imgBox.prof-2::before {
+    content: 'Albert Byrone';
+    position: absolute;
+    font-size: large;
+    color: #fff;
+    z-index: 1;
+    bottom: 1em;
+    left: 1em;
+    font-weight: 700;
 }
 
 img {
