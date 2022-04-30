@@ -93,9 +93,9 @@ li:last-child a:hover {
 .buttons button:hover,
 .buttons button:focus, 
 .buttons button:active {
-    box-shadow: inset 125px 0px 0 0 #fff;
+    box-shadow: inset 205px 0px 0 0 #fff;
     border: 1px solid #ec4067;
-    color: #ec4067;
+    color: #ec4067 !important;
 }
 
 
@@ -105,9 +105,12 @@ li:last-child a:hover {
     border: 1px solid #ec4067;
 }
 
-.buttons button:nth-child(2):hover {
+.buttons button:nth-child(2):hover,
+.buttons button:nth-child(2):focus,
+.buttons button:nth-child(2):active
+ {
     box-shadow: inset 200px 0 0 0 #ec4067;
-    color: #fff;
+    color: #fff !important;
 }
 
 .section {
@@ -453,4 +456,26 @@ image.fullwidth{
 }
 .footer p{
     background: none;
+}
+
+.go-top-btn{
+    position: fixed;
+    bottom: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border: none;
+    bottom: 2em;
+    right: 2em;
+    z-index: 10;
+}
+
+.go-top-btn img{
+    width: 100%;
+    height: 100%;
 }
