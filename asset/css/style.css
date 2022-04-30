@@ -364,6 +364,26 @@ li:last-child a:hover {
     left: 1em;
     font-weight: 700;
 }
+.imgBox.prof-3::before {
+    content: 'Raphael Katana';
+    position: absolute;
+    font-size: large;
+    color: #fff;
+    z-index: 1;
+    bottom: 1em;
+    left: 1em;
+    font-weight: 700;
+}
+.imgBox.prof-4::before {
+    content: 'Christine Karimi';
+    position: absolute;
+    font-size: large;
+    color: #fff;
+    z-index: 1;
+    bottom: 1em;
+    left: 1em;
+    font-weight: 700;
+}
 
 img {
     width: 100%;
