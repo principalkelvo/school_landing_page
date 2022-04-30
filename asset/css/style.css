@@ -84,16 +84,20 @@ li:last-child a:hover {
     font-size: 1em;
     font-weight: 500;
     color: #fff;
+    text-transform: capitalize;
 
     transition: ease-out 0.3s;
 
 }
 
-.buttons button:hover {
-    box-shadow: inset 100px 0px 0 0 #fff;
+.buttons button:hover,
+.buttons button:focus, 
+.buttons button:active {
+    box-shadow: inset 125px 0px 0 0 #fff;
     border: 1px solid #ec4067;
     color: #ec4067;
 }
+
 
 .buttons button:nth-child(2) {
     color: #ec4067;
@@ -123,7 +127,7 @@ li:last-child a:hover {
 }
 .column.is-3 {
     width: 25%;
-    padding: 3em;
+    padding: 2em;
 }
 
 .column.is-4 {
@@ -156,10 +160,14 @@ li:last-child a:hover {
 }
 
 .content {
-    color: #444;
-    font-weight: normal;
+    color: rgb(94, 94, 94);
+    font-weight: 200;
 
 }
+.projects .content{
+    font-size: 21px;
+}
+
 .stories_title{
     margin-bottom: 1em;
     font-size: 26px;
@@ -303,6 +311,16 @@ li:last-child a:hover {
     position: absolute;
     top: 0;
 }
+.title.project::after {
+    content: "It's, hopefully, a good one!";
+    font-size: large;
+    font-weight: 100;
+    color: rgb(85, 84, 84);
+    padding-left: 1em;
+    position: absolute;
+    bottom: 4px;
+}
+
 .card {
     position: relative;
     width: 250px;
