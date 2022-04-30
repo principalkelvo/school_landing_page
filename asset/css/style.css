@@ -458,7 +458,7 @@ image.fullwidth{
     background: none;
 }
 .is-indexed{
-    z-index: 40;
+    z-index: 40 !important;
 }
 .go-top-btn{
     position: fixed !important;
