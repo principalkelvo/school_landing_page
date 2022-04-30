@@ -312,6 +312,11 @@ li:last-child a:hover {
     font-weight: 500;
     color: #fff;
 }
+.card .buttons button:hover{
+    box-shadow: inset 200px 0px 0 0 #fff;
+    border: 1px solid #ec4067;
+    color: #ec4067;
+}
 
 .imgBox {
     width: 250px;
