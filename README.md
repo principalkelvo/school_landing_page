@@ -9,7 +9,7 @@ Moringa Landing Page was created and is maintained by **Kelvin Njoro**
 ## Design 
 ![image][id]
 For full design click [image] (https://drive.google.com/file/d/1fEotYCYASJfDtQv_x-C2jCKkJ_PVa7w0/view)
-[id]: assets/images/Moringa_landing_page.png "Hero section"
+[id]: (assets/images/Moringa_landing_page.png)"Hero section"
 
 ## Description
 <p>This is a landing page for Moringa school. The main purpose of this respisotory is to share a simple school landing page. This project is done by using HTML and CSS only to create a cool landing page. It is a fully developed light mode for desktop computers</p>
