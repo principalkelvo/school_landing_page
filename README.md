@@ -1,6 +1,6 @@
 # Moringa landing page
 ***
-## Creator :blush:
+## Creator :man_technologist:
 Moringa Landing Page was created and is maintained by **Kelvin Njoro**
 * [Twitter](https://twitter.com/kelvinprincipal/)
 * [Github](https://github.com/principalkelvo/)
@@ -13,9 +13,7 @@ For full design click [image](https://drive.google.com/file/d/1fEotYCYASJfDtQv_x
 ## Description
 <p>This is a landing page for Moringa school. The main purpose of this respisotory is to share a simple school landing page. This project is done by using HTML and CSS only to create a cool landing page. It is a fully developed light mode for desktop computers</p>
 
-::: warning
 **The landing page has dummy text where needed**
-:::
 
 ### Contains
 * A navbar- with school logo
@@ -35,7 +33,6 @@ For full design click [image](https://drive.google.com/file/d/1fEotYCYASJfDtQv_x
 > - Beautiful interface - compatible with all desktops and with a beautiful and pleasant interface.
 > - Smooth Scroll - added a back to top scroll btn
 
-*[btn]: button
 
 ###  Requirements
 * Access to  a computer or any other gadget
@@ -50,11 +47,6 @@ For full design click [image](https://drive.google.com/file/d/1fEotYCYASJfDtQv_x
 ### Built with
 * HTML - which was used to develop the structure off the pages.
 * CSS - which was used to style the User Interface.
-
-*[CSS]: Cascading Style Sheet
-
-*[HTML]: HyperText Markdown Language
-
 
 ## Bugs and Issues
 <p>Have a bug or issue? Open a new issue here on Github</p>
